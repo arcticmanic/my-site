@@ -14,5 +14,5 @@ jobs:
         ftp-server: ftp://vh182.timeweb.ru/
         ftp-username: manic_manic
         ftp-password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: public_html
+        local-dir: public_html/
         git-ftp-args: --dry-run
