@@ -11,8 +11,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.0
       with:
-        ftp-server: ftp://vh182.timeweb.ru/
+        ftp-server: ftp://vh182.timeweb.ru/public_html/
         ftp-username: manic_manic
         ftp-password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: public_html/
-        git-ftp-args: --dry-run
