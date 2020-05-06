@@ -15,3 +15,4 @@ jobs:
         ftp-username: manic_manic
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         local-dir: public_html/
+        git-ftp-args: --dry-run
